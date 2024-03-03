@@ -1,5 +1,5 @@
 import React from 'react';
-import './works.css';
+import './Work.css';
 import zero from "../../Images/zero.png";
 const Works = () => {
   return (
