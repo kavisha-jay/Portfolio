@@ -1,4 +1,4 @@
-import Nav from "./components/Nav/Nav.JSX";
+import Nav from "./components/Nav/Nav";
 import Intro from "./components/Intro/Intro";
 import Skills from "./components/Skill/Skills"
 import Works from "./components/Works/Works";
