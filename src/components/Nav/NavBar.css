@@ -1,0 +1,49 @@
+.navbar{
+    background: rgb(30, 30, 30);
+    height:5rem;
+    width:100vw;
+    max-width: auto;
+    margin:0;
+    padding:1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    position:sticky;
+    top:0;
+    z-index: 3;
+    
+}
+.name{
+    margin-left: 2rem;
+    font-size: xxx-large;
+    font-weight: 800;
+    color: #04AA6D;
+
+    
+    animation: slideRight 1s ease forwards;
+}
+
+.destopMenuListItem{
+    margin: 1rem;
+    cursor: pointer;
+    
+}
+
+.destopMenuListItem:hover{
+    color:#04AA6D;
+    border-bottom: 5px solid #04AA6D;
+    width: 100%;
+}
+@keyframes slideRight{
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+.active{
+  color:#04AA6D;
+}

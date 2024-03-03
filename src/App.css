@@ -1,0 +1,13 @@
+.Container img{
+    height:250px;
+    width:200px;
+    border-radius: 20%;
+    float:right;
+    flex: 1;    
+    
+}
+.Container{
+    margin-left: 80%;
+    margin-right: 20%;
+    padding-left: 15%;
+}
