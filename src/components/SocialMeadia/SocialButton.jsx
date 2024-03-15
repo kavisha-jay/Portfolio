@@ -12,8 +12,9 @@ const SocialButton = () => {
             <a href="https://github.com/kavisha-jay" target="_blank" rel="noopener noreferrer">
                <AiFillGithub className='social-icon' style={{'--i':3, color:"white"}} />
             </a>
-
-            <AiFillInstagram className='social-icon' style={{'--i':4}}/>
+            <a href="https://www.instagram.com/kaveesha.me/" target="_blank" rel="noopener noreferrer">
+            <AiFillInstagram className='social-icon' style={{'--i':4, color:"white"}}/>
+            </a>
         </div>
       
     );
