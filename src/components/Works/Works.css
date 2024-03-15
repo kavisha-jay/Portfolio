@@ -31,10 +31,11 @@
 }
 
 .worksImg{
-    object-fit: cover;
-    height: 20rem;
+    
+    height: 15rem;
     margin:0.5rem;
     border-radius: 3rem;
+    width:25rem;
 }
 
 @media screen and (max-width:585px){
