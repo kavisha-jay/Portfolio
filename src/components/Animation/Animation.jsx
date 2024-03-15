@@ -4,7 +4,7 @@ import './Animation.css';
 
 const Animation = () => {
     const [text] = useTypewriter({
-        words:['A Developer', 'A Designer', 'A Undergrauate student'],
+        words:['A Web Developer', 'A Designer', 'A Undergrauate student'],
         loop: {},
         typeSpeed: 120,
         deleteSpeed: 80,

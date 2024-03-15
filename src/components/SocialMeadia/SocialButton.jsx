@@ -5,9 +5,14 @@ const SocialButton = () => {
     return (
       
         <div className='contain'>
-            <a href="mailto:kavishajayasingha90@gmail.com"><AiFillMail className='social-icon'  style={{'--i':1}}/></a>
-            <AiFillLinkedin className='social-icon' style={{'--i':2}}/>
-            <AiFillGithub className='social-icon' style={{'--i':3}}/>
+            <a href="mailto:kavishajayasingha90@gmail.com"><AiFillMail className='social-icon'  style={{'--i':1, color:'white'}}/></a>
+            <a href="https://www.linkedin.com/in/kaveesha-jayasingha-b183b5266" target="_blank" rel="noopener noreferrer">
+                  <AiFillLinkedin className='social-icon' style={{'--i':2, color:"white"}} />
+            </a>
+            <a href="https://github.com/kavisha-jay" target="_blank" rel="noopener noreferrer">
+               <AiFillGithub className='social-icon' style={{'--i':3, color:"white"}} />
+            </a>
+
             <AiFillInstagram className='social-icon' style={{'--i':4}}/>
         </div>
       
