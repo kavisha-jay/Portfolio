@@ -1,5 +1,5 @@
 .navbar{
-    background: rgb(30, 30, 30);
+    background: #191f36;
     height:5rem;
     width:100vw;
     max-width: auto;
@@ -17,7 +17,7 @@
     margin-left: 2rem;
     font-size: xxx-large;
     font-weight: 800;
-    color: #04AA6D;
+    color: #216382;
     animation: slideRight 1s ease forwards;
 }
 
@@ -28,8 +28,8 @@
 }
 
 .destopMenuListItem:hover{
-    color:#04AA6D;
-    border-bottom: 5px solid #04AA6D;
+    color:#216382;
+    border-bottom: 5px solid #216382;
     width: 100%;
 }
 @keyframes slideRight{
@@ -43,7 +43,7 @@
     }
 }
 .active{
-  color:#04AA6D;
+  color:#216382;
 }
 .mobMenu{
     width:3rem;

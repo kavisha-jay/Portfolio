@@ -7,7 +7,7 @@
 }
 
 .social-icon {
-    background-color: #2d3748;
+    background-color: #191f36;
     box-sizing: content-box;
     padding-left: 0.75rem;
     padding-right: 0.75rem;
@@ -20,11 +20,11 @@
     transition-duration: 0.3s;
 }
 .social-icon:hover {
-    box-shadow: 0 0 10px #04AA6D,
-    0 0 25px #04AA6D, 0 0 50px #04AA6D,
-    0 0 100px #04AA6D, 0 0 200px #04AA6D;
+    box-shadow: 0 0 10px #216382,
+    0 0 25px #216382, 0 0 50px #216382,
+    0 0 100px #216382, 0 0 200px #216382;
    
-    color: #04AA6D;
+    color: #216382;
 }
 @keyframes slideLeft{
     0%{
