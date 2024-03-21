@@ -5,9 +5,10 @@
     text-decoration: none;
     background: transparent;
     font-family: 'Poppins', sans-serif;
+    z-index: 1;
 }
 body{
-    background: #1e1e1e ;
+    background: #191f36 ;
     color: #fff;
     overflow: hidden;
     overflow-y: scroll;
