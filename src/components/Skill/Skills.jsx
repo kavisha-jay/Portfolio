@@ -12,7 +12,7 @@ const Skills = () => {
         Skill description to fill
        </span>
 
-      
+      <div className="contain1">
        <div className="skillBars">
          <div className="skillBar">
             <img src={UIDesign} alt="" className="skillbarimg" />
@@ -33,10 +33,11 @@ const Skills = () => {
          <div className="skillBar">
             <img src={UIDesign} alt="" className="skillbarimg" />
             <div className="skillBarText">
-                <h2></h2>
-                <p></p>
+                <h2>Website design</h2>
+                <p>You can write your own content here</p>
             </div>
          </div>
+       </div>
        </div>
     </section>
   );
