@@ -1,6 +1,8 @@
 import React from 'react';
 import './Skills.css';
-import UIDesign from '../../Images/one.png';
+import UIDesign from '../../Images/ui-ux.png';
+import Web from '../../Images/9414296.png';
+import App from '../../Images/app.png';
 
 const Skills = () => {
   return (
@@ -23,7 +25,7 @@ const Skills = () => {
          </div>
 
          <div className="skillBar">
-            <img src={UIDesign} alt="" className="skillbarimg" />
+            <img src={Web} alt="" className="skillbarimg" />
             <div className="skillBarText">
                 <h2>Website design</h2>
                 <p>You can write your own content here</p>
@@ -31,7 +33,7 @@ const Skills = () => {
          </div>
 
          <div className="skillBar">
-            <img src={UIDesign} alt="" className="skillbarimg" />
+            <img src={App} alt="" className="skillbarimg" />
             <div className="skillBarText">
                 <h2>Website design</h2>
                 <p>You can write your own content here</p>
