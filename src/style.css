@@ -5,7 +5,7 @@
     text-decoration: none;
     background: transparent;
     font-family: 'Poppins', sans-serif;
-    /* z-index: 1; */
+    z-index: 1;
 }
 body{
     background: #191f36 ;
