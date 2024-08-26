@@ -1,0 +1,13 @@
+.img{
+    max-width: 100%;
+  height: 5rem;
+  position: absolute;
+  top: -3rem;
+  right: 0;
+  object-fit: cover;
+  z-index: -1;
+  transition: 0.3s;
+  transition-property: all;
+  margin-top: 3rem;
+  z-index: 1; 
+}

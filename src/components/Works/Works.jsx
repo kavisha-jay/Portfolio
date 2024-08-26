@@ -13,11 +13,11 @@ const Works = () => {
            <div className='wrapper'>
              <div className='card'>
               <img src={melo} alt="" className="worksImg" />
-              <div className='info'>
+              {/* <div className='info'>
                  <h1>Heading</h1>
                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ullam culpa officia deserunt omnis accusamus fuga amet, consequuntur voluptas. Modi.</p>
                  <a href="" class="btn">Read More</a>
-              </div>
+              </div> */}
              </div>
            </div>
             <img src={web} alt="" className="worksImg" />

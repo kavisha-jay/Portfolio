@@ -6,6 +6,7 @@ import Contact from "./components/ContactForm/Contact";
 // import Footer from "./components/Footer/Footer";
 import ParticlesComponent from "./components/Intro/Particlescomponent";
 import './App.css';
+import Aboutme from "./components/Aboutme/Aboutme";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       </div>
       </div>
       <Intro/>
+      {/* <Aboutme/> */}
       <Skills/>
       <Works />
       <Contact/>
