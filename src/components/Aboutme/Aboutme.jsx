@@ -1,16 +1,19 @@
 import React from 'react';
 import img from '../../Images/me.jpg';
+import './About.css';
 
 function Aboutme() {
   return (
-    <section>
-    <div>
-        {/* <img src={img} alt="image" className='h-44'/> */}
-        <p className='text-slate-50'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, corrupti nesciunt. Accusamus assumenda delectus voluptatibus aut quisquam veniam commodi ab laborum dicta tempore velit iure minus repellendus soluta nostrum possimus harum, ex, quod, suscipit tenetur doloremque nihil ipsam aperiam. Sit, dignissimos earum dicta quaerat consectetur exercitationem illo dolorum quisquam sapiente soluta aperiam ipsum, iste facere laborum iusto reiciendis dolores id? Eius ducimus veritatis doloremque nisi, provident similique ex ipsum quaerat labore harum culpa nostrum ratione numquam ipsam a voluptas atque quis perferendis temporibus quam maxime voluptatum quos porro? Cum autem tempore quae ea consectetur velit blanditiis ad provident dignissimos doloremque!</p>
-
-    </div>
+    <section className='about' id='aboutme'>
+      <img src={img} alt="Personal" className='about-img'/>
+      <div className='about-text'>
+        <h2>About Me</h2>
+        <p>
+          I'm a passionate software engineering student with a keen interest in web and app development. I thrive on solving complex problems and continuously learning new technologies to improve my skills. When I'm not coding, you'll find me exploring the latest tech trends or contributing to open-source projects. Let's build something amazing together!
+        </p>
+      </div>
     </section>
-  )
+  );
 }
 
 export default Aboutme;
