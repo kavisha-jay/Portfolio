@@ -55,9 +55,9 @@
 }
 .submitBtn:hover{
     cursor: pointer;
-      background-color: #04AA6D;
+      background-color: #216382;
 
-      box-shadow: 0 0 10px #04AA6D,
-      0 0 25px #04AA6D, 0 0 50px #04AA6D,
-      0 0 100px #04AA6D, 0 0 200px #04AA6D
+      box-shadow: 0 0 10px #216382,
+      0 0 25px #216382, 0 0 50px #216382,
+      0 0 100px #216382, 0 0 200px #216382  
 }

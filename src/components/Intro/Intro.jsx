@@ -17,7 +17,7 @@ const Intro = () => {
              <span className="hi">Hi,</span>
              <span className="hello">I'm <span className="fn">Kaveesha</span></span>
              <span className="itroText"><Animation /></span>
-             <p className="introPara">
+             {/* <p className="introPara">
              I'm a passionate software engineering undergraduate with a
              strong foundation 
 
@@ -26,7 +26,7 @@ const Intro = () => {
              in computer science principles, eager to
               translate theory into building innovative<br /> and user-friendly
               applications.
-              </p>
+              </p> */}
              <div className="SocialBTN">
              <SocialButton/>
              </div>
